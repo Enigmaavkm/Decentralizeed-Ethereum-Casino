@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css' >
+  <link rel="shortcut icon" href="image/title.jpg">
+  
+  <!----------------------------------------------EDIT START--------------------------------------------------------------------------------------------->
+	<link  rel="stylesheet" href="css/bootstrap.css"/>
+	<link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
+	<link rel="stylesheet" href="css/design.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  
+  <!-----------------------------------------------EDIT END------------------------------------------------------------------------------------->
+  </head> 
+  
+  
+  
+  <!-----------------------------------EDIT START--------------------------------------------------------------------------------------------->
+  <body>
+<div class="imgbody">
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">JackpotCity</h5></a>
+    </div>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li data-toggle="modal" data-target="#signup"><a href="register.html">Register</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Link <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li data-toggle="modal" data-target="#contactus"><a href="#">About us</a></li>           
+          </ul>
+        </li>
+      </ul>
+   
+</nav>
+
+</nav>
+
+<div class="row">
+<div class="col-md-1" ><b>
+<ul class="nav nav-pills nav-stacked">
+  <li><a href="register.html" target="_blank" class="btn btn-primary">Register</a></li>
+  <li><a href="exchange.html" target="_blank" class="btn btn-primary"> Exchange</br> Money</a></li>
+  <li><a href="vote.html" target="_blank" class="btn btn-primary"> Vote </a></li>
+  <li><a href="checkBalance.html" target="_blank" class="btn btn-primary">Check<br>Balance</a></li>
+   
+</ul></b>
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    -->
+
+<div class="col-md-6" >
+<div class="box" >
+<center>
+	<br>
+  <h1><b>  Register </b> </h1>
+  <br><br><br>
+  <div id="address"></div>
+	&nbsp;<b>Enter User ID :</b> &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Public key"id="input_public_id"/> 
+	<br><br>
+	<b>Enter Password :</b> &nbsp;<input type="password" placeholder="Enter Private key" id="input_private_id"/>  <br><br>
+	<b>Confirm Password :</b> <input type="password" placeholder="Confirm Private key" id="confirm_private_id"/> 
+	&nbsp;&nbsp;<output type="text" id="register_message"></output>
+	<br>
+	<a href="#" onclick="registerClick()" class="btn btn-primary"> Register</a>
+	
+  <br><br><br><br><br><br><br><br>
+	
+	
+  </center>
+      
+    </div>
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    -->
+	 
+<div class="col-md-4" >
+<div class="box">
+	 <div class="panel panel-primary">
+  <div class="panel-heading"><b>Information :</b></div>
+  <div class="panel-body">
+<font color="black"><b>
+<marquee id="marq_message">Casino Roulette is live !! Go Register Now and Bet. </marquee>		
+		</div></b></font>
+</div>
+</div>
+<div class="box">
+<div class="panel panel-primary">
+  <div class="panel-heading"><b>Attention :</b></div>
+  <div class="panel-body">
+<font>
+	<b><h2 id="remaining_slot_id2">Current Match : </h2></b>  <br>
+	<b><h4 id="remaining_slot_id">Winner will be announced after 0 more votes.</h4></b>
+</div>
+</font>
+</div>
+</div>
+<div class="box">
+<div class="panel panel-primary">
+  <div class="panel-heading"><b>Previous Match Result :</b></div>
+  <div class="panel-body">
+<font color="black">
+	<b><h4 id="prevId1">Total Bet Amount : 0</h4></b>
+	<b><h4 id="prevId2">Winner Bet Number : 0</h4></b>
+</font>		
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12"><br><br></div>
+</div>
+<div class="row">
+<div class="col-md-6 col-md-offset-1">
+<div class="box">
+<div class="panel panel-primary">
+<font color="black">  
+  <div class="panel-body"><h4>
+  <h3>JackpotCity</h3>
+At JackpotCity, we know precisely what Indian players look for in a great online casino. That’s why we’ve assembled a fantastic collection of the very best casino games around.
+
+Enter our live casino and pick from some of India’s most popular online casino games Live Roulette. All of our friendly dealers are professionally trained. If you’re looking for India’s best live casino, you’ve come to the right place.
+
+We also offer a great spread of slots, including life-changing progressive jackpot slots.
+
+JackpotCity also offers a great range of Indian casino bonuses and promotions. These include our 100% welcome bonus when you join, and our weekly Bamboo Bonus, alongside plenty of other amazing promotions and bonuses.
+
+And just to make your life as easy as possible, we also offer a wide selection of deposit methods for Indian casino players.
+
+Have a royal good time!
+Join now and receive your ₹10,000 bonus today.
+		</h4>
+</div>
+</font>
+</div>
+</div>
+</div>
+
+<div class=col-md-4>
+<div class="box">
+<div class="panel panel-primary">
+<div class="panel-body">
+  <font color="#091D9E">
+		<h3> <b>Developer :</b></h3>
+	</font>
+	<font color="#2DC1E2">
+		<h4> <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Vikas Maurya</b></h4>
+		<h4> <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Satyam Gupta</b></h4>
+		<h4> <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sharad Shukla</b></h4>
+	</font>
+	<img src="image/33.jpg">
+</div>
+</div>
+</div>
+</div>
+</div>
+</ul>
+<div id="footer"><!--closing of wrapper-->
+ <center>
+<p>&copy all right reserved @JackpotCity</p>
+</center>
+</div>
+</div>
+  </body>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+  <script language="JavaScript" type="text/javascript" src="../build/contracts/CastYourVote.json"></script>
+<!--  <script language="JavaScript" type="text/javascript" src="javascripts/app.js"> </script>   -->
+  <script language="JavaScript" type="text/javascript" src="../app/javascripts/bundle.js"></script>
+  <!------------------------------------EDIT END------------------------------------------------------------------------------------->
+</html>

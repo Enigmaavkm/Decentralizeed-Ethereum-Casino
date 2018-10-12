@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voting</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css' >
+  
+  </head>
+
+<body class="container">
+	<center>
+  <h1>  Voting  </h1>
+  <br><br><br><br>
+  <div id="address"></div>
+	Public key : <input type="text" id="input_account_id"/>
+	<br><br>
+	Private key : <input type="text" id="input_private_id"/>
+	<br><br>
+	Bet price :   <input type="text" id="input_betPrice_id"/>
+  <br><br><br>
+	 Submit your bet number       :
+    <a href="#" onclick="addBetClick(1)" class="btn btn-primary"> one </a>
+	<a href="#" onclick="addBetClick(2)" class="btn btn-primary"> two </a>
+	<a href="#" onclick="addBetClick(3)" class="btn btn-primary"> three </a>
+	<a href="#" onclick="addBetClick(4)" class="btn btn-primary"> four </a>
+	<a href="#" onclick="addBetClick(5)" class="btn btn-primary"> five </a>
+	<a href="#" onclick="addBetClick(6)" class="btn btn-primary"> six </a>
+	<a href="#" onclick="addBetClick(7)" class="btn btn-primary"> seven </a>
+	<a href="#" onclick="addBetClick(8)" class="btn btn-primary"> eight </a>
+	<a href="#" onclick="addBetClick(9)" class="btn btn-primary"> nine </a>
+	<a href="#" onclick="addBetClick(0)" class="btn btn-primary"> ten </a>
+	
+  </center>
+  </body>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+  <script language="JavaScript" type="text/javascript" src="../build/contracts/CastYourVote.json"></script>
+<!--  <script language="JavaScript" type="text/javascript" src="javascripts/app.js"> </script>   -->
+  <script language="JavaScript" type="text/javascript" src="../app/javascripts/bundle.js"></script>
+  
+</html>

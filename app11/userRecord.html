@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Record</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css' >
+  
+  </head>
+
+<body class="container">         
+	
+	<br>
+  <h1> <b> User Record </b> </h1>
+  <br><br>
+  <div id="address"></div>
+	<b>Public key : </b><input type="text" placeholder="Enter public key" id="userRecord_pub_id"/>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<a href="#" onclick="userRecordClick()" class="btn btn-primary">&nbsp&nbsp&nbsp Enter &nbsp&nbsp&nbsp </a>
+  <br><br><br>
+	<div class="table-responsive">
+	<table class="table table-bordered" id="userRecordTable">
+		<thead>
+		  <tr> 
+			<th>Match no</th>
+			<th>Amount Bet</th>
+			<th>Selected Value</th>
+			<th>Amount Gain</th>
+		   </tr>
+		</thead>
+		<tbody>
+			
+		</tbody>
+	</table>
+	<div id="msg"></div>
+  </div>
+
+  </body>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+  <script language="JavaScript" type="text/javascript" src="../build/contracts/CastYourVote.json"></script>
+<!--  <script language="JavaScript" type="text/javascript" src="javascripts/app.js"> </script>   -->
+  <script language="JavaScript" type="text/javascript" src="../app/javascripts/bundle.js"></script>
+  
+</html>

@@ -1,0 +1,31 @@
+npm init -y
+truffle init
+
+npm install requirejs
+npm install uniq
+browserify app.js -o bundle.js
+
+
+
+cmd 1
+	testrpc
+	
+cmd 2
+	node
+	Web3 = require('web3')
+	web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545') );
+	web3.eth.accounts
+
+cmd 3
+	truffle.cmd compile
+	truffle.cmd migrate
+	
+	truffle.cmd migrate --reset --all
+	
+cmd 4
+	browserify app.js -o bundle.js
+
+cmd 5
+	npm run dev
+	
+	

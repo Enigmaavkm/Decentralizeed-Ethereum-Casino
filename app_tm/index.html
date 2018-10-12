@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css' >
+  
+  </head>
+
+<body class="container">
+  <h1>A Simple Voting Application </h1>
+  <div id="address"></div>
+  <div class="table-responsive">
+	<table class="table table-bordered" id="myTable">
+		<thead>
+		  <tr> 
+			<th>Candidate</th>
+			<th>Votes</th>
+		   </tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>User1</td>
+				<td id="candidate-0"></td>
+			</tr>
+		</tbody>
+	</table>
+	<div id="msg"></div>
+  </div>
+  
+  <input type="text" id="oldCandidate"/>
+  <a href="#" onclick="voteForCandidate()" class="btn btn-primary"> Vote </a>
+  
+  <input type="text" id="newCandidate"/>
+  <a href="#" onclick="addCandidate()" class="btn btn-primary"> Add Candidate </a>
+  
+  <br><br> <br>
+  <input type="text" placeholder="Public Key" id="balanceCheckPubID"/>
+  <a href="#" onclick="checkBalanceClick()" class="btn btn-primary"> Check balance </a>
+  <br>
+  <output type="text" id="outputBalace" > For balance click </output>
+  
+  <br><br><br>
+  <a href="register.html" target="_blank" class="btn btn-primary"> Register</a><br><br>
+  <a href="exchange.html" target="_blank" class="btn btn-primary"> Exchange Money</a><br><br>
+  <a href="vote.html" target="_blank" class="btn btn-primary"> Vote </a>
+  </body>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+  <script language="JavaScript" type="text/javascript" src="../build/contracts/CastYourVote.json"></script>
+<!--  <script language="JavaScript" type="text/javascript" src="javascripts/app.js"> </script>   -->
+  <script language="JavaScript" type="text/javascript" src="../app/javascripts/bundle.js"></script>
+  
+</html>
